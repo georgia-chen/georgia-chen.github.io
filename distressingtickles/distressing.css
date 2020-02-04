@@ -1,0 +1,169 @@
+#boxframe{
+  margin:10px;
+  padding:20px;
+  width:90%;
+  height:80%;
+  align:center;
+  cursor:help;
+}
+
+
+.cell{
+  position:relative;
+  float:left;
+  left:10px;
+  transition:transform 0.7s;
+  width:150px;
+  height:150px;
+  margin:5 auto;
+  grid-gap: 10px 10px;
+  font-family: 'Bebas Neue';
+  text-align: center;
+}
+
+.cell-1{
+  background: transparent;
+  font-size: 60pt;
+
+
+  
+}
+.cell-1:hover{
+  transform: scale(-10);
+}
+
+.cell-2{
+  background: transparent;
+  font-size: 100pt;
+}
+
+.cell-2:hover{
+  transform: scale(-5);
+}
+
+
+.cell-3{
+  background: transparent;
+  font-size: 30pt;
+}
+
+.cell-3:hover{
+  transform: scale(30);
+}
+
+
+.cell-4{
+  background: transparent;
+  font-size: 60pt;
+
+}
+
+.cell-4:hover{
+  transform: scale(-20);
+}
+
+.cell-5{
+  background: transparent;
+  font-size:20pt;
+
+}
+
+.cell-5:hover{
+  transform: scale(80);
+}
+
+
+.cell-6{
+  background:orange;
+  font-size:60pt;
+}
+
+.cell-6:hover{
+  transform: scale(-10);
+}
+
+
+.cell-7{
+  background: blue;
+  font-size: 60pt;
+}
+
+.cell-7:hover{
+  transform: scale(-70);
+}
+
+
+.cell-8{
+  background:transparent;
+  font-size:80pt;
+}
+
+.cell-8:hover{
+  transform: scale(-10);
+}
+
+.cell-9{
+  background: transparent;
+  font-size: 45pt ;
+}
+
+.cell-9:hover{
+  transform: scale(36);
+}
+
+
+.cell-10{
+  background:orange;
+  font-size: 67pt;
+}
+
+.cell-10:hover{
+  transform: scale(-30);
+}
+
+.cell-11{
+  background: blue;
+  font-size: 50pt;
+}
+
+.cell-11:hover{
+  transform: scale(-40);
+}
+
+
+.cell-12{
+  background:transparent;
+  font-size: 40pt;
+}
+
+.cell-12:hover{
+  transform: scale(-20);
+}
+
+
+.cell-13{
+  background: transparent;
+  font-size: 45pt ;
+}
+
+.cell-13:hover{
+  transform: scale(30)
+}
+
+.cell-14{
+  background:orange;
+  font-size: 30pt;
+}
+
+.cell-14:hover{
+  transform:scale(-20)
+}
+
+.cell-15{
+  background:blue;
+  font-size:70pt;
+}
+
+.cell-15:hover{
+  transform:scale(70)
+}

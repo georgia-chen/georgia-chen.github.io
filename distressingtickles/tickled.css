@@ -1,0 +1,356 @@
+.frame{
+  height:130px;
+  widows: 500px;
+  top:150px;
+  left:80px;
+  position:fixed;
+  cursor: help;
+  font-family: 'Bebas Neue';
+
+}
+
+.frame2{
+  height: 100px;
+  width:100%;
+  position: absolute;
+  top:310px;
+  left:90px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  cursor:help;
+  font-family: 'Bebas Neue';
+
+}
+
+#tickverb{
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  margin:10 auto;
+
+}
+
+#ticktext{
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  margin:10 auto;
+  float:left
+}
+
+.textanimation1{
+  background:transparent;
+  float:left;
+
+}
+
+.textanimation1:hover{
+  transform: translateY(20px);
+  color:orange;
+}
+
+.textanimation2{
+  background:transparent;
+  float:left;
+
+}
+
+.textanimation2:hover{
+  transform: translateX(-30px);
+  color:orange;
+
+}
+
+.textanimation3{
+  background:transparent;
+  float:left;
+
+}
+
+.textanimation3:hover{
+  transform: translateY(10px);
+  color:blue;
+}
+
+.textanimation4{
+  background:transparent;
+  float:left
+
+}
+
+.textanimation4:hover{
+  transform: translateY(30px);
+  color:blue;
+}
+
+.cell{
+  position:relative;
+  float:left;
+  transition:transform 0.25s;
+  margin:10 auto;
+  font-family: 'Bebas Neue';
+  text-align: center;
+  font-size: 100px;
+  outline: none;
+}
+
+.cell-1{
+  background:transparent;
+  width:65px;
+}
+
+.cell-1:hover{
+  transform: scale(1.4)
+  rotate(-10deg)
+  translateX(10px);
+  color: orange;
+}
+
+.cell-1:active{
+  transform: scale(1.4)
+  rotate(30deg)
+  translateX(-10px);
+  cursor: pointer;
+}
+
+.cell-2{
+  background:transparent;
+  width:37px;
+
+}
+
+.cell-2:hover{
+  transform: scale(-1.6)
+  rotate(20deg)
+  translateX(10px);;
+  cursor: pointer;
+  color: orange;
+}
+
+.cell-2:active{
+  transform: scale(-1.6)
+  rotate(-30deg)
+  translateX(-10px);
+}
+
+.cell-3{
+  background:transparent;
+  width:71px;
+}
+
+.cell-3:hover{
+  transform: scale(-1.5)
+  rotate(-20deg)
+  translateX(10px);;
+  color: orange;
+  cursor: pointer;
+}
+
+.cell-3:active{
+  transform: scale(-1.6)
+  rotate(-40deg)
+  translateX(-10px);
+
+}
+
+.cell-4{
+  background:transparent;
+  width:76px;
+}
+
+.cell-4:hover{
+  transform: scale(1.4)
+  rotate(30deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
+}
+
+.cell-4:active{
+  transform: scale(1.6)
+  rotate(-10deg)
+  translateX(-10px);
+}
+
+.cell-5{
+  background:transparent;
+  width:65px;
+}
+.cell-5:hover{
+  transform: scale(-1.2) 
+  rotate(-10deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
+  
+}
+
+.cell-5:active{
+  transform: scale(-1.6)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.cell-6{
+  background:transparent;
+  width:65px;
+}
+
+.cell-6:hover{
+  transform: scale(1.2)
+  rotate(30deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
+}
+
+.cell-6:active{
+  transform: scale(1.6)
+  rotate(50deg)
+  translateX(-10px);
+}
+
+.cell-7{
+  background:transparent;
+  width:75px;
+}
+
+.cell-7:hover{
+  transform: scale(-1.5)
+  rotate(-20deg)
+  translateX(10px);
+  cursor: pointer;
+  color: orange;
+}
+
+.cell-7:active{
+  transform: scale(-1.6)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes{
+  height:80px;
+  width:80px;
+  position: absolute;
+  background:transparent;
+}
+
+.shapes-1{
+  left:55px;
+  top:70px;
+}
+
+.shapes-1:hover{
+  background:blue;
+}
+
+.shapes-1:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-2{
+  right:200px;
+  top:100px;
+}
+
+.shapes-2:hover{
+  background:orange;
+}
+
+.shapes-2:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-3{
+  right:400px;
+  top:200px;
+}
+
+.shapes-3:hover{
+  background:orange;
+}
+
+.shapes-3:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-4{
+  right:200px;
+  top:400px;
+}
+
+.shapes-4:hover{
+  background:orange;
+}
+
+.shapes-4:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-5{
+  left:200px;
+  top:450px;
+}
+
+.shapes-5:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-5:hover{
+  background:orange;
+}
+
+.shapes-6{
+  left:500px;
+  top:530px;
+}
+
+.shapes-6:hover{
+  background:blue;
+}
+
+.shapes-6:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-7{
+  left:350px;
+  top:260px;
+}
+
+.shapes-7:hover{
+  background:blue;
+}
+
+.shapes-7:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}
+
+.shapes-8{
+  left:500px;
+  top:90px;
+}
+
+.shapes-8:hover{
+  background:orange;
+}
+
+.shapes-8:active{
+  transform: scale(-1.4)
+  rotate(-40deg)
+  translateX(-10px);
+}

@@ -1,0 +1,12 @@
+.frame{
+    width: 80%;
+    height:60%;
+    left: 100px;
+    top:100px;
+    position:absolute;
+    align:center;
+    padding:40px;
+    font-size: 60px;
+    font-family: 'Bebas Neue';
+
+}

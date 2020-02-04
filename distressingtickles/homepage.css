@@ -1,0 +1,34 @@
+
+
+.boxleft{
+    position: fixed;
+    left:0px;
+    height:100%;
+    width: 50%;
+    text-align: center;
+    padding:250px 0;
+    font-size: 70px;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+
+}
+
+.boxleft:hover{
+    background-color: blue;
+}
+
+.boxright{
+    position: fixed;
+    right:0px;
+    height:100%;
+    width: 50%;
+    padding:250px 0;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Bebas Neue';
+    text-decoration: none;
+}
+
+.boxright:hover{
+    background-color: orange;
+}
